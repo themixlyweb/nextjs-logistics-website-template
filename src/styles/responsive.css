@@ -1,0 +1,39 @@
+/* Large screens 992px and above */
+@media (min-width: 992px) {
+  .nav-link {
+    padding-top: 0 !important;    /* Remove vertical padding for nav links */
+    padding-bottom: 0 !important;
+  }
+}
+
+/* Screens smaller than 992px (tablet and below) */
+@media (max-width: 992px) {
+  /* Adjust brand padding for better alignment on smaller screens */
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Smaller padding for nav items and links on mobile */
+  .nav-item .nav-link {
+    padding: 0.4rem !important;
+  }
+
+  /* Set offcanvas background to dark blue */
+  .offcanvas {
+    background-color: #012970 !important;
+  }
+}
+
+/* Small screens below 768px (mobile) */
+@media (max-width: 768px) {
+  /* Fix sticky navbar clone position */
+  .navbar-clone {
+    top: 0 !important;
+  }
+
+  /* Make sticky-wrapper relative to prevent overlap issues */
+  .sticky-wrapper {
+    position: relative !important;
+  }
+}

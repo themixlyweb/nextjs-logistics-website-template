@@ -1,0 +1,69 @@
+/* Primary text color used throughout the site */
+.text-main {
+  color: #012970 !important; /* Main brand color */
+}
+
+/* Primary background color */
+.primary-bg {
+  background: #012970 !important;
+}
+
+/* Justify text alignment */
+.text-justify {
+  text-align: justify !important;
+}
+
+/* Hover effects on heading links */
+.link h3:hover,
+.link:hover h4 {
+  color: #012970 !important;
+}
+
+/* Section headings style */
+section h2,
+section h1 {
+  font-weight: 700;
+  color: #012970 !important;
+}
+
+/* Navbar item and "other" section padding */
+.nav-item .nav-link,
+.navbar-other {
+  padding: 1.2em !important;
+}
+
+/* Dropdown menu minimum width */
+.dropdown-menu {
+  min-width: auto !important;
+}
+
+/* Link hover and active states */
+.nav-link:hover,
+.nav-link.active,
+.nav-link:focus,
+.navbar-nav .nav-link.activate,
+.dropdown-item.activate,
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #012970 !important;
+}
+
+/* Transparent navbar without fixed position padding reset */
+.navbar-expand-lg.transparent:not(.fixed) {
+  padding: 0 !important;
+}
+
+/* Video container settings */
+.video-container video {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -3;
+}
+
+/* Widget links hover style */
+.widget ul li a:hover {
+  color: #012970 !important;
+  text-decoration: underline !important;
+}
